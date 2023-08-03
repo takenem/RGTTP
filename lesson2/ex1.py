@@ -22,9 +22,11 @@ print("{:-^9}".format(codename))
 
 # INSERT YOUR CODE HERE
 number: int = 10
-print("""The number is {0}.
-The binary of the number is {0:b}.
-The hex of the number is {0:x}""".format(number))
+print(
+      ("The number is {0}.\n"
+       "The binary of the number is {0:b}.\n"
+       "The hex of the number is {0:x}").format(number)
+     )
 
 # 4. Format a floating-point number with fixed precision.
 

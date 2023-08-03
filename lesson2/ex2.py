@@ -11,8 +11,11 @@ player: str = "Allen Iverson"
 team: str = "Philadelphia 76ers"
 uniform_number: int = 3
 
-print("My favorite NBA player is {} he played for the {} for a long teime.\n\
-His uniform_number was {}.".format(player, team, uniform_number))
+print(
+      ("My favorite NBA player is {}.\n" 
+       "He played for the {} for a long teime.\n"
+       "His uniform_number was {}.").format(player, team, uniform_number)
+     )
 
 # 2. Use string formatting with positional arguments and
 #    print the sentence: "Don't Panic!"
