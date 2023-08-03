@@ -12,7 +12,7 @@ team: str = "Philadelphia 76ers"
 uniform_number: int = 3
 
 print(
-      ("My favorite NBA player is {}.\n" 
+      ("My favorite NBA player is {}.\n"
        "He played for the {} for a long teime.\n"
        "His uniform_number was {}.").format(player, team, uniform_number)
      )

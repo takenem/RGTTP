@@ -73,7 +73,7 @@ print(
       + "{0[Train]:o}".format(versions)
       + "}"
      )
-print( 
+print(
       "***Byte*** "
       "The OpenStack Stein will be RHOSP"
       + "{"
