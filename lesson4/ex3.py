@@ -67,4 +67,3 @@ def sort_reverse_fruits() -> dict[str, int]:
 
 
 print(sort_reverse_fruits())
-
