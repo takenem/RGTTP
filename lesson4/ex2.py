@@ -36,7 +36,7 @@ for value in fruits.items():
 
 # INSERT YOUR CODE HERE
 # I couldn't understand why type hint int is not working.
-banana_value: int = fruits.get('banana')
+banana_value: int | None = fruits.get('banana')
 print(banana_value)
 
 
@@ -45,7 +45,7 @@ print(banana_value)
 
 # INSERT YOUR CODE HERE
 # I couldn't understand why type hint int is not working.
-def find_mandarin(fruit: str) -> int:
+def find_mandarin(fruit: str) -> int | None:
     if 'mandarin' in fruits:
         return fruits.get('mandarin')
     else:
